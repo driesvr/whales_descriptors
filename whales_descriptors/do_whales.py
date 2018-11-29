@@ -57,7 +57,7 @@ def main(suppl, charge_threshold=0, do_charge=True, property_name=''):
         # display
         index += 1
         if index % 100 == 0:
-            print 'Mol: ' + str(index)
+            print ('Mol: ' + str(index))
 
         # check for correct molecule import, throw an error if import/sanitization fail
         mol, err = import_mol(mol)
