@@ -15,9 +15,8 @@ import numpy as np
 import pandas as ps
 import rdkit.Chem as Chem
 
-import lcm
-import mol_properties
-
+from whales_descriptors import lcm
+from whales_descriptors import mol_properties
 
 def main(suppl, charge_threshold=0, do_charge=True, property_name=''):
     """
